@@ -1,5 +1,5 @@
 import About from './pages/About'
-import Contact from './pages/Contact'
+import Resume from './pages/Resume'
 import Experience from './pages/Experience'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
@@ -13,7 +13,7 @@ function App() {
   const navigate = useNavigate()
 
   return (
-    <div className='bg-violet-800'>
+    <div className='min-w-screen min-h-screen bg-violet-800'>
       <button onClick={() => navigate('/')}>
       <h1 className='absolute top-3 left-10 text-white'>Rishan Biju</h1>
       </button>
@@ -25,7 +25,7 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
         <Route path='*' element={<Error />} />
        </Routes> 
     </div>

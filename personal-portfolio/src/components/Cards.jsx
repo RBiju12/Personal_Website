@@ -19,7 +19,7 @@ const Cards = ({img, title, body, url}) => {
             <Typography gutterBottom variant='body2' component='div'>
               {body}
             </Typography>
-            {url ? <CardLink href={`${url}`}> </CardLink> : NaN}
+            {url ? <CardLink href={`${url}`}> </CardLink> : null}
           </CardContent>
       </Card>
 

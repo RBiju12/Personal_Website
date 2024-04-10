@@ -40,9 +40,9 @@ const Navbar = () => {
        </div>
 
         <div>
-            <NavLink to='/contact' style={({isActive}) => {
+            <NavLink to='/resume' style={({isActive}) => {
                 return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Contact</NavLink>
+            }}>Resume</NavLink>
         </div>
     </div> 
   )

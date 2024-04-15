@@ -13,7 +13,7 @@ function App() {
   const navigate = useNavigate()
 
   return (
-    <div className='min-w-screen min-h-screen bg-violet-800'>
+    <div className='min-w-screen min-h-screen bg-slate-300'>
       <button onClick={() => navigate('/')}>
       <h1 className='absolute top-3 left-10 text-white'>Rishan Biju</h1>
       </button>

@@ -3,28 +3,31 @@ import {Card} from '@mui/material'
 import {CardMedia} from '@mui/material'
 import {CardContent} from '@mui/material'
 import {Typography} from '@mui/material'
-import {CardLink} from '@mui/material'
+import {CardActions} from '@mui/material'
 
 
 const Cards = ({img, title, body, url}) => {
+
+
   return (
     <div>
-      <Card>
-        <CardMedia sx={{height: 130}} image={img} />
+      <Card sx={{maxWidth: 220, maxHeight: 180, backgroundColor: 'black'}}>
+          {img}
           <CardContent>
-            <Typography gutterBottom variant='h1' component='div'>
-              {title}
+            <Typography gutterBottom variant='h4' component='div' style={{fontFamily: 'Consolas', color: 'white'}}>
+              &nbsp;{title}
             </Typography>
 
             <Typography gutterBottom variant='body2' component='div'>
-              {body}
+              {body ? body : undefined}
             </Typography>
-            {url ? <CardLink href={`${url}`}> </CardLink> : null}
+            <CardActions>
+            {url ? <a href={`${url}`} /> : undefined}
+            </CardActions>
           </CardContent>
       </Card>
-
-
-    </div>
+      </div>
+    
   )
 }
 

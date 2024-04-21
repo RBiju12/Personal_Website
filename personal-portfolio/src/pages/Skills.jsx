@@ -30,7 +30,7 @@ const Skills = () => {
 
     <div className='flex mx-20 mr-80'>
       <div className='flex flex-col space-y-20'>
-      <Cards img={<SiFastapi style={{ height: 100, width: 200, color: '#5bb450' }} />} title="FastAPI" />
+      <Cards img={<SiFastapi style={{ height: 100, width: 200, color: '#5bb450' }} />} title="FastAPI"/>
       <Cards img={<DiMongodb style={{ height: 100, width: 200, color: '#5bb450' }} />} title="MongoDB" />
       <Cards img={<IoIosGitNetwork style={{ height: 100, width: 200, color: 'white' }} />} title="Git" />
 

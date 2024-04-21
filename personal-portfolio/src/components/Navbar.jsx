@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex flex-col space-y-4'>
+    <div className='flex flex-col space-y-4 font-mono'>
         <div>
             <NavLink to='/' style={({isActive}) => {
                 return isActive ? {color: '#00FF00'} : {color: 'white'}

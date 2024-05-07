@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <>
     <div>
-      <div className='absolute top-60 left-0 right-0 flex justify-center items-center'>
+      <div className='absolute top-40 left-0 right-0 flex justify-center items-center'>
         <img src={spanalytics} />
       </div>
 

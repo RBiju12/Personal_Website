@@ -22,8 +22,8 @@ const Cards = ({img, title, body, url, height, width}) => {
             </Typography>
             <CardActions>
             
-            <a href={url ?? `${url}`}>
-              <Button size="small" style={{color: '#00ffff'}}>{url}</Button>
+            <a href={url ?? `${url}`} style={{color: '#00FFFF'}}>
+              {url}
             </a>
             </CardActions>
           </CardContent>

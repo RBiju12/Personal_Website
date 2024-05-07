@@ -16,12 +16,12 @@ const Experience = () => {
   return (
     <>
     <div>
-      <div className='absolute top-40 left-0 right-0 flex justify-center items-center'>
+
+      <div className='mt-10'>
+      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas'}}><u>Experience</u></Typography>
+      <div className='absolute mt-20 left-0 right-0 flex justify-center items-center'>
         <img src={spanalytics} />
       </div>
-
-      <div className='mt-20'>
-      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas'}}><u>Experience</u></Typography>
       </div>
       
       <div ref={softwareEngin} className='absolute bottom-80 left-0 right-0 flex justify-center items-center'>

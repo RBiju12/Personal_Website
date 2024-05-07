@@ -1,12 +1,11 @@
 import React from 'react'
-import {Card} from '@mui/material'
+import {Card, Button} from '@mui/material' 
 import {CardContent} from '@mui/material'
 import {Typography} from '@mui/material'
 import {CardActions} from '@mui/material'
 
 
 const Cards = ({img, title, body, url, height, width}) => {
-
 
   return (
     <div>
@@ -18,10 +17,14 @@ const Cards = ({img, title, body, url, height, width}) => {
             </Typography>
 
             <Typography gutterBottom variant='body2' component='div' style={{color: 'white'}}>
-              {body ? body : undefined}
+              {body ? body.map((section, id) => 
+            <li key={id}> {section} </li>) : undefined}
             </Typography>
             <CardActions>
-            {url ? <a href={`${url}`} /> : undefined}
+            
+            <a href={url ?? `${url}`}>
+              <Button size="small" style={{color: '#00ffff'}}>{url}</Button>
+            </a>
             </CardActions>
           </CardContent>
       </Card>

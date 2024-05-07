@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='min-w-screen min-h-screen bg-slate-300'>
       <button onClick={() => navigate('/')}>
-      <h1 className='absolute top-3 left-10 text-white text-2xl' style={{fontFamily: 'Consolas'}}>Rishan Biju</h1>
+        <h1 className='absolute top-3 left-10 text-white text-2xl' style={{fontFamily: 'Consolas'}}>Rishan Biju</h1>
       </button>
 
       <Slider />

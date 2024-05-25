@@ -11,6 +11,7 @@ import { SiFastapi } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { IoIosGitNetwork } from "react-icons/io";
 import Social from '../components/Social'
+import Footer from './Footer';
 
 const Skills = () => {
 
@@ -49,6 +50,7 @@ const Skills = () => {
   <div className='mt-80'>
   <Social />
   </div>
+  <Footer />
   </div> 
   )
 }

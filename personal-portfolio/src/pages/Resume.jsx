@@ -1,6 +1,7 @@
 import React from 'react'
 import PersonalResume from '../assets/Biju_Resume.pdf'
 import Social from '../components/Social'
+import Footer from './Footer'
 
 const Resume = () => {
   return (
@@ -12,6 +13,7 @@ const Resume = () => {
     </div>
 
     <Social />
+    <Footer />
     </>
   )
 }

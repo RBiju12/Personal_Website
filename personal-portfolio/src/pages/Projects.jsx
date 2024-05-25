@@ -2,6 +2,7 @@ import React from 'react'
 import { Typography } from '@mui/material'
 import Social from '../components/Social'
 import Cards from '../components/Cards'
+import Footer from './Footer'
 
 export default function Projects()
 {
@@ -17,13 +18,18 @@ export default function Projects()
       </div>
 
       <div className='mt-40 ml-80 flex flex-row space-x-80'>
-          <Cards title='Covid Data Analyzer' body={body} url='https://github.com/RBiju12/covid-data-analyzer' height={400} width={380}/>
+          <Cards title='Covid Data Analyzer' body={body} url='https://github.com/RBiju12/covid-data-analyzer' height={450} width={380}/>
           <Cards title='Novus' body={body2} url='https://github.com/RBiju12/Novus' height={390} width={380}/>
       </div> 
-      <div className='absolute bottom-0'>
-        <Social />
+    
+      <Social />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <Footer />
       </div>
+    
 
+
+      
     </div>
     </>
   )

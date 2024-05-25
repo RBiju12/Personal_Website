@@ -1,20 +1,18 @@
 import React from 'react'
-import Hamburger from 'hamburger-react'
 import Navbar from './Navbar'
-import { useState } from 'react'
+import Squash from 'hamburger-react'
+import {useState} from 'react'
 
 const Slider = () => {
-  const [isToggled, setToggled] = useState(false)
-
+  const [isToggle, setToggled] = useState(false)
   return (
     <>
     <div className='absolute top-0 right-20'>
-        <Hamburger color="#FFFFFF" size={28} onToggle={(toggled) => {
+        <Squash color="#FFFFFF" size={28} onToggle={(toggled) => {
             setToggled(toggled)
         }} />
 
-        {isToggled ? <Navbar /> : null}
-      
+        {isToggle ? <Navbar /> : null}
     </div>
     </>
   )

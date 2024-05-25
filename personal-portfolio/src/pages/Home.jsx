@@ -4,6 +4,7 @@ import {TypeAnimation} from 'react-type-animation'
 import Social from '../components/Social'
 import image from '../images/profess.png'
 import {useState, useEffect} from 'react'
+import Footer from './Footer'
 
 const Home = () => {
 
@@ -32,6 +33,7 @@ const Home = () => {
       </div>
 
       <Social />
+      <Footer />
     </div>
   )
 }

@@ -8,13 +8,14 @@ import Home from './pages/Home'
 import Slider from './components/Slider'
 import {Routes, Route} from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
+import Footer from './pages/Footer'
 
 function App() {
   const navigate = useNavigate()
 
   return (
     <div className='min-w-screen min-h-screen bg-slate-300'>
-      <button onClick={() => navigate('/')}>
+      <button aria-label='Home' onClick={() => navigate('/')}>
         <h1 className='absolute top-3 left-10 text-white text-2xl' style={{fontFamily: 'Consolas'}}>Rishan Biju</h1>
       </button>
 

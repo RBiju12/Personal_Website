@@ -1,51 +1,29 @@
-import React from 'react'
-import {NavLink} from 'react-router-dom'
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-
-
   return (
-    <div className='flex flex-col space-y-4 font-mono'>
-        <div>
-            <NavLink to='/' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Home</NavLink>
-            <br />
+        <div className="hidden md:flex md:space-x-10">
+          <NavLink to='/' aria-label='Home Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            Home
+          </NavLink>
+          <NavLink to='/about' aria-label='About Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            About
+          </NavLink>
+          <NavLink to='/skills' aria-label='Skills Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            Skills
+          </NavLink>
+          <NavLink to='/experience' aria-label='Experience Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            Experience
+          </NavLink>
+          <NavLink to='/projects' aria-label='Projects Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            Projects
+          </NavLink>
+          <NavLink to='/resume' aria-label='Resume Page' className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>
+            Resume
+          </NavLink>
         </div>
+  );
+};
 
-        <div>
-            <NavLink to='/about' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>About</NavLink>
-            <br />
-        </div>
-
-       <div>
-            <NavLink to='/skills' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Skills</NavLink>
-       </div>
-
-        <div>
-            <NavLink to='/experience' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Experience</NavLink>
-        </div>
-
-       <div>
-            <NavLink to='/projects' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Projects</NavLink>
-       </div>
-
-        <div>
-            <NavLink to='/resume' style={({isActive}) => {
-                return isActive ? {color: '#00FF00'} : {color: 'white'}
-            }}>Resume</NavLink>
-        </div>
-    </div> 
-  )
-}
-
-export default Navbar
+export default Navbar;

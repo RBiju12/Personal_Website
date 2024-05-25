@@ -3,6 +3,7 @@ import tennis from '../images/tennis.png'
 import {Typography} from '@mui/material'
 import img2 from '../images/aboutpic.png'
 import Social from '../components/Social'
+import Footer from './Footer'
 
 const About = () => {
 
@@ -24,6 +25,7 @@ const About = () => {
     </div>
 
     <Social />
+    <Footer />
     </div>
   )
 }

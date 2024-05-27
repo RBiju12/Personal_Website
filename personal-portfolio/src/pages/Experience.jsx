@@ -25,21 +25,11 @@ export default function Experience() {
       </div>
       
            
-      <div className='flex justify-center items-center mt-40'>
-      <Cards title='Software Engineering Intern' body={body3} width={290} height={295}/>
+      <div className='flex justify-center items-center flex-col space-y-6 mt-40'>
+        <Cards title='Software Engineering Intern' body={body3} width={290} height={295}/>
+        <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
       </div>
 
-      <br />
-      <br />
-
-      
-      
-      <div className='flex justify-center items-center'>
-      <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
-      
-      
-      </div>
-      
       <div className='absolute bottom-0 left-0 w-full'>
       <Social />
       <Footer />

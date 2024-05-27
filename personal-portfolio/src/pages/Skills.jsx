@@ -47,7 +47,7 @@ const Skills = () => {
     </div>
     </div>
 
-  <div className='mt-40'>
+  <div className='mt-80'>
   <Social />
   </div>
   <Footer />

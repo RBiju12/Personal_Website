@@ -34,18 +34,19 @@ export default function Experience() {
       <br />
       <br />
 
-      <Xarrow start={cyberSecurity} end={softwareEngin} color='white' />
+      
       
       <div ref={cyberSecurity} className='flex justify-center items-center'>
       <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
 
+
+
+      <Xarrow start={cyberSecurity} end={softwareEngin} color='white' />
       </div>
       
       <div className='absolute bottom-0 left-0 w-full'>
       <Social />
-        <br />
-        <br />
-        <Footer />
+      <Footer />
       </div>
     </div>
   )

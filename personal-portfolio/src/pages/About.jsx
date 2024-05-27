@@ -21,8 +21,8 @@ const About = () => {
       </Typography>
       </div>
     <div className="flex justify-center items-center h-screen l-20 space-x-40">
-      <LazyLoadImage src={tennis} style={{height: '350px', width: '300px'}} />
-      <LazyLoadImage src={img2} style={{height: '350px', width: '300px'}} /> 
+      <LazyLoadImage src={tennis} style={{height: '350px', width: '400px'}} />
+      <LazyLoadImage src={img2} style={{height: '350px', width: '400px'}} /> 
     </div>
 
     <Social />

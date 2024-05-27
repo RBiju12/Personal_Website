@@ -27,6 +27,8 @@ export default function Experience() {
            
       <div className='flex justify-center items-center flex-col space-y-15 mt-40'>
         <Cards title='Software Engineering Intern' body={body3} width={290} height={295}/>
+        <br />
+        <br />
         <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
       </div>
 

@@ -14,7 +14,7 @@ export default function Projects()
     <>
     <div>
       <div className='mt-20'>
-        <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas'}}><u>Projects</u></Typography>
+        <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Projects</u></Typography>
       </div>
 
       <div className='mt-40 ml-80 flex flex-row space-x-80'>
@@ -23,9 +23,9 @@ export default function Projects()
       </div> 
     
       <Social />
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Footer />
-      </div>
+      
+      <Footer />
+      
     
 
 

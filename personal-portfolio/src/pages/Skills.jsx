@@ -19,10 +19,10 @@ const Skills = () => {
   return (
     <div className='mt-0'>
       <div className='mt-10'>
-      <Typography className='text-white text-center mt-10' variant='h4' style={{fontFamily: 'Consolas'}}><u>Skills</u></Typography>
+      <Typography className='text-white text-center mt-10' variant='h4' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Skills</u></Typography>
       </div>
 
-    <div className="flex mx-40 mt-20">
+    <div className="flex mx-20 mt-20">
       <div className="flex flex-col space-y-20 mr-80">
         <Cards img={<FaPython style={{ height: 100, width: 200, color: '#3366FF' }} />} title="Python" />
         <Cards img={<FaJava style={{ height: 100, width: 200, color: 'orange' }} />} title="Java" />
@@ -37,17 +37,17 @@ const Skills = () => {
 
       </div>
     </div>
-    <div className='flex mx-70 mr-30'>
+    <div className='flex mx-20 mr-30'>
     <div className='flex flex-col space-y-20'>
     <Cards img={<FaReact style={{ height: 100, width: 200, color: '#00FFFF'}} />} title="React" />
     <Cards img={<FaNode style={{ height: 100, width: 200, color: '#83f28f' }} />} title="Node.js" />
-    <Cards img={<SiTypescript style={{ height: 100, width: 200, color: '#0000ff' }} />} title="TypeScript" />
+    <Cards img={<SiTypescript style={{ height: 100, width: 200, color: '#0000ff'}} />} title="TypeScript" />
     </div>
 
     </div>
     </div>
 
-  <div className='mt-80'>
+  <div className='mt-40'>
   <Social />
   </div>
   <Footer />

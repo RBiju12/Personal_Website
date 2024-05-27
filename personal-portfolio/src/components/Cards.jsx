@@ -12,7 +12,7 @@ const Cards = ({img, title, body, url, height, width}) => {
       <Card sx={{maxWidth: Number(`${width}`), maxHeight: Number(`${height}`), backgroundColor: 'black'}}>
           {img}
           <CardContent>
-            <Typography gutterBottom variant='h4' component='div' style={{fontFamily: 'Consolas', color: 'white'}}>
+            <Typography gutterBottom variant='h4' component='div' style={{fontFamily: 'Consolas', color: 'white', fontWeight: 'bold'}}>
               &nbsp;{title}
             </Typography>
 

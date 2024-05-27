@@ -8,7 +8,7 @@ const Slider = () => {
   return (
     <>
     <div className='absolute top-0 right-20'>
-        <Squash color="#FFFFFF" size={28} onToggle={(toggled) => {
+        <Squash color="#FFFFFF" size={31} onToggle={(toggled) => {
             setToggled(toggled)
         }} />
 

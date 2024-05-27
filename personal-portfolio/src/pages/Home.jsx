@@ -23,12 +23,12 @@ const Home = () => {
     <div className='bg-slate-300'>
       <div className='flex flex-col space-y-20'>
       <br />
-      <Typography variant='h5' className='text-white text-center' style={{fontFamily: 'Consolas'}}>
+      <Typography variant='h5' className='text-white text-center' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}>
       Hello, I am <br/> 
       &nbsp; &nbsp; Rishan Biju
       </Typography>
       
-      <TypeAnimation className='text-center' style={{color: '#ffff00', fontFamily: 'Consolas', fontSize: 30}} sequence={['I am a Student', 1000, 'I am a Designer', 1000, 'I am a Developer', 1000, 'I am a Engineer', 1000]} speed={30} repeat={Infinity} />
+      <TypeAnimation className='text-center' style={{color: '#ffff00', fontFamily: 'Consolas', fontSize: 30, fontWeight: 'bold'}} sequence={['I am a Student', 1000, 'I am a Designer', 1000, 'I am a Developer', 1000, 'I am a Engineer', 1000]} speed={30} repeat={Infinity} />
       <img src={shown ? image : null} className='m-auto object-contain h-80 w-70 '/>
       </div>
 

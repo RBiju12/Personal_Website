@@ -20,7 +20,7 @@ export default function Experience() {
     <div>
 
       <div className='mt-10'>
-      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas'}}><u>Experience</u></Typography>
+      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Experience</u></Typography>
       <div className='absolute mt-10 left-0 right-0 flex justify-center items-center'>
         <img src={spanalytics} title='Spanalytics' />
       </div>

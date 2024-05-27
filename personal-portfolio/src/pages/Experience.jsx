@@ -32,6 +32,8 @@ export default function Experience() {
 
       <div className='absolute bottom-0 left-0 w-full'>
       <Social />
+      <br />
+      <br />
       <Footer />
       </div>
     </div>

@@ -3,15 +3,11 @@ import {Typography } from '@mui/material'
 import spanalytics from '../images/spanalytics.png'
 import Social from '../components/Social'
 import Cards from '../components/Cards'
-import {useRef} from 'react'
-import Xarrow from 'react-xarrows'
 import Footer from './Footer'
 
 
 
 export default function Experience() {
-  const cyberSecurity = useRef(null)
-  const softwareEngin = useRef(null)
 
   const body2 = ['Conducted penetration testing on a variety of network devices, including routers and switches, using Linux-based tools such as Nmap', 'Validated the functionality of network devices by using Wireshark to analyze network traffic resulting in a 15% reduction in network downtime']
   const body3 = ['Developed version validation control checker using Express.js, enabling users to effortlessly retrieve their files securely', 'Implemented Vanilla JavaScript to fetch data from the backend endpoints, enhancing user experience and optimizing performance']
@@ -29,7 +25,7 @@ export default function Experience() {
       </div>
       
            
-      <div ref={softwareEngin} className='flex justify-center items-center mt-40'>
+      <div className='flex justify-center items-center mt-40'>
       <Cards title='Software Engineering Intern' body={body3} width={290} height={295}/>
       </div>
 
@@ -38,13 +34,8 @@ export default function Experience() {
 
       
       
-      <div ref={cyberSecurity} className='flex justify-center items-center'>
+      <div className='flex justify-center items-center'>
       <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
-
-
-      {
-        (cyberSecurity.current && softwareEngin.current) ?? <Xarrow start={cyberSecurity} end={softwareEngin} color='white' />
-      }
       
       
       </div>

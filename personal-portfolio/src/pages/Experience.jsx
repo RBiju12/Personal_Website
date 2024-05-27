@@ -19,6 +19,8 @@ export default function Experience() {
   return (
     <div>
 
+      
+
       <div className='mt-10'>
       <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Experience</u></Typography>
       <div className='absolute mt-10 left-0 right-0 flex justify-center items-center'>
@@ -40,8 +42,11 @@ export default function Experience() {
       <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
 
 
-
-      <Xarrow start={cyberSecurity} end={softwareEngin} color='white' />
+      {
+        (cyberSecurity.current && softwareEngin.current) ?? <Xarrow start={cyberSecurity} end={softwareEngin} color='white' />
+      }
+      
+      
       </div>
       
       <div className='absolute bottom-0 left-0 w-full'>

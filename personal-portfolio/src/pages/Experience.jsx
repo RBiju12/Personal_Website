@@ -4,7 +4,8 @@ import spanalytics from '../images/spanalytics.png'
 import Social from '../components/Social'
 import Cards from '../components/Cards'
 import Footer from './Footer'
-
+import LinearProgress from '@mui/material/LinearProgress';
+import Box from '@mui/material/Box';
 
 
 export default function Experience() {
@@ -15,7 +16,7 @@ export default function Experience() {
   return (
     <div>
 
-      
+    
 
       <div className='mt-10'>
       <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Experience</u></Typography>
@@ -23,14 +24,30 @@ export default function Experience() {
         <img src={spanalytics} title='Spanalytics' />
       </div>
       </div>
+
       
-           
-      <div className='flex justify-center items-center flex-col space-y-15 mt-40'>
-        <Cards title='Software Engineering Intern' body={body3} width={290} height={295}/>
-        <br />
-        <br />
-        <Cards title='CyberSecurity Intern' body={body2} width={290} height={280}/>
-      </div>
+      
+      
+      
+    <div className='mt-40 flex justify-center items-center'>
+      <Box sx={{position: 'absolute', width: '20px', height: '10px', marginRight: '80px', marginTop: '20px'}}>
+        <LinearProgress sx={{transform: 'rotate(270deg)', width: '50px'}} />
+      </Box>
+    <div className='flex flex-col space-y-15 justify-center items-center'>
+      <Cards title='Software Engineering Intern' body={body3} width={290} height={295} />
+      <br />
+      <br />
+      <Cards title='CyberSecurity Intern' body={body2} width={290} height={280} />
+   </div>
+    </div>
+
+      
+      
+     
+
+      
+
+ 
 
       <Social />
       <Footer />

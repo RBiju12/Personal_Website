@@ -38,16 +38,9 @@ export default function Experience() {
       <br />
       <br />
       <Cards title='CyberSecurity Intern' body={body2} width={290} height={280} />
-   </div>
+    </div>
     </div>
 
-      
-      
-     
-
-      
-
- 
 
       <Social />
       <Footer />

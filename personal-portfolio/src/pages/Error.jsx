@@ -2,8 +2,8 @@ import React from 'react'
 
 const Error = () => {
   return (
-    <div>
-      <h1>404 Error</h1>
+    <div className='my-80 justify-center items-center '>
+      <h1 className='text-center text-white' style={{fontWeight: 'bold', fontFamily: 'Consolas', fontSize: 30}}>404 Error</h1>
     </div>
   )
 }

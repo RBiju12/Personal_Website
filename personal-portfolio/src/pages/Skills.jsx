@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div className='mt-0'>
       <div className='mt-10'>
-      <Typography className='text-white text-center mt-10' variant='h4' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Skills</u></Typography>
+      <Typography className='text-white text-center mt-10' variant='h4' style={{fontFamily: 'Poppins', fontWeight: 'bold', color: '#1e293b'}}><u>Skills</u></Typography>
       </div>
 
     <div className="flex mx-20 mt-20">

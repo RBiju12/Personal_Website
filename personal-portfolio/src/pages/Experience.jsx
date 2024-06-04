@@ -19,7 +19,7 @@ export default function Experience() {
     
 
       <div className='mt-10'>
-      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>Experience</u></Typography>
+      <Typography variant='h4' className='text-center text-white' style={{fontFamily: 'Poppins', fontWeight: 'bold', color: '#1e293b'}}><u>Experience</u></Typography>
       <div className='absolute mt-10 left-0 right-0 flex justify-center items-center'>
         <img src={spanalytics} title='Spanalytics' />
       </div>
@@ -34,10 +34,10 @@ export default function Experience() {
         <LinearProgress sx={{transform: 'rotate(270deg)', width: '50px'}} />
       </Box>
     <div className='flex flex-col space-y-15 justify-center items-center'>
-      <Cards title='Software Engineering Intern' body={body3} width={290} height={295} />
+      <Cards title='Software Engineering Intern' body={body3} width={290} height={390} />
       <br />
       <br />
-      <Cards title='CyberSecurity Intern' body={body2} width={290} height={280} />
+      <Cards title='CyberSecurity Intern' body={body2} width={290} height={380} />
     </div>
     </div>
 

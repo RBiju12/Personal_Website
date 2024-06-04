@@ -12,11 +12,11 @@ const Cards = ({img, title, body, url, height, width}) => {
       <Card sx={{maxWidth: Number(`${width}`), maxHeight: Number(`${height}`), backgroundColor: 'black'}}>
           {img}
           <CardContent>
-            <Typography gutterBottom variant='h4' component='div' style={{fontFamily: 'Consolas', color: 'white', fontWeight: 'bold'}}>
+            <Typography gutterBottom variant='h4' component='div' style={{fontFamily: '#1e293b', color: 'white', fontWeight: 'bold'}}>
               &nbsp;{title}
             </Typography>
 
-            <Typography gutterBottom variant='ol' component='div' style={{color: 'white'}}>
+            <Typography gutterBottom variant='ol' component='div' style={{color: 'white', font: 'Poppins'}}>
               {body ? body.map((section, id) => 
             <li key={id}> {section} </li>) : undefined}
             </Typography>

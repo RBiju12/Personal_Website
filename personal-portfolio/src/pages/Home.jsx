@@ -23,7 +23,7 @@ const Home = () => {
     <div className='bg-slate-300'>
       <div className='flex flex-col space-y-20'>
       <br />
-      <Typography variant='h5' className='text-white text-center' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}>
+      <Typography variant='h5' className='text-center' style={{fontFamily: 'Poppins', fontWeight: 'bold', color: '#1e293b'}}>
       Hello, I am <br/> 
       &nbsp; &nbsp; Rishan Biju
       </Typography>

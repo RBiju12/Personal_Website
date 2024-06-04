@@ -10,11 +10,11 @@ const About = () => {
 
   return (
     <div className='mt-20'>
-      <Typography variant='h4' className='text-center text-white mt-20' style={{fontFamily: 'Consolas', fontWeight: 'bold'}}><u>About Me</u></Typography>
+      <Typography variant='h4' className='text-center mt-20' style={{fontFamily: 'Poppins', fontWeight: 'bold', color:'#1e293b'}}><u>About Me</u></Typography>
       <br />
       <br />
       <div className='text-center mr-20'>
-      <Typography variant='p' className='text-white' style={{fontFamily : 'Consolas', fontSize: 20, fontWeight: 'bold'}}>
+      <Typography variant='p' className='text-white' style={{fontFamily : 'Poppins', fontSize: 20, fontWeight: 'bold', color: '#1e293b'}}>
       I am a rising Sophmore in the computer science program at Virginia Tech. I love to be creative and develop new solutions to help the world. <br />
       I plan on becoming a Undergraduate Teaching Assistant next fall and am passionate about helping others. <br />
       This is my personal website where I have my Experience, Projects, Skills, Resume, and Contact listed and I hope to connect with you. 

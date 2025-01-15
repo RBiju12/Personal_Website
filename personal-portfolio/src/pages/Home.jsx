@@ -29,7 +29,7 @@ const Home = () => {
       </Typography>
       
       <TypeAnimation className='text-center' style={{color: '#ffff00', fontFamily: 'Consolas', fontSize: 30, fontWeight: 'bold'}} sequence={['I am a Student', 1000, 'I am a Designer', 1000, 'I am a Developer', 1000, 'I am a Engineer', 1000]} speed={30} repeat={Infinity} />
-      <img src={shown ? image : null} className='m-auto object-contain h-80 w-70 '/>
+      <img src={shown ? image : null} className='m-auto object-contain w-full sm:w-[70%] md:w-[60%] lg:w-[50%] max-w-[80%] h-auto '/>
       </div>
 
       <Social />

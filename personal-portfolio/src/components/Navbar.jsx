@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-        <div className="hidden md:flex md:space-x-10">
+        <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-10 p-4 md:p-0">
           <NavLink to='/' aria-label='Home Page' className={({ isActive }) => isActive ? 'text-purple-500' : 'text-slate-800'}>
             Home
           </NavLink>

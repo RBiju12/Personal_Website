@@ -38,7 +38,7 @@ export default function Projects() {
               title='Covid Data Analyzer'
               body={body}
               url='https://github.com/RBiju12/covid-data-analyzer'
-              height={450}
+              height={480}
               width={380}
             />
             <Cards

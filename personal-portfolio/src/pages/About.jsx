@@ -29,8 +29,8 @@ const About = () => {
             color: '#1e293b',
           }}
         >
-          I am a rising Sophomore in the Computer Science program at Virginia Tech. I love to be creative and develop new solutions to help the world. <br />
-          I plan on becoming a Undergraduate Teaching Assistant next fall and am passionate about helping others. <br />
+          I am a Sophomore in the Computer Science program at Virginia Tech. I love to be creative and develop new solutions to help the world. <br />
+          I am an undergraduate researcher at the Code World research group and am passionate about helping others. <br />
           This is my personal website where I have my Experience, Projects, Skills, Resume, and Contact listed and I hope to connect with you.
         </Typography>
       </div>
